@@ -4,4 +4,4 @@ cd ./debian-setup
 
 chmod 700 ./ -R
 
-./setup.sh
+sudo ./setup.sh

@@ -1,1 +1,2 @@
-./setup.sh
+./debian-setup/setup.sh
+./linux-welcome/setup.sh

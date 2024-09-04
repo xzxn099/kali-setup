@@ -1,6 +1,6 @@
 
 # setup zip function 
-zip() {
+encrypt() {
     # Check if an argument was provided
   if [ "$#" -ne 1 ]; then
       echo "Usage: $0 <directory-to-archive>"
@@ -44,7 +44,7 @@ zip() {
   fi
 }
 
-unzip() {
+decrypt() {
   # Check if an argument was provided
   if [ "$#" -ne 1 ]; then
       echo "Usage: $0 <path-to-archive>"

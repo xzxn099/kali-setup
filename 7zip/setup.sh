@@ -1,4 +1,4 @@
-#!/bin/bash
+figlet "7zip" -f slant
 
 sudo apt install p7zip-full
 

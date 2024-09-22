@@ -1,4 +1,4 @@
-figlet "Alacritty" -f slant
+figlet "!" -f slant
+echo "Choose alacritty:"
 
-sudo apt install alacritty
-cp .alacritty.toml ~/
+sudo update-alternatives --config x-terminal-emulator
